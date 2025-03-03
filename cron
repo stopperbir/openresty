@@ -1,0 +1,2 @@
+*/10 * * * * bash /opt/nmon/agent.sh > /opt/nmon/cron.log 2>&1
+*/30 * * * * find /usr/local/openresty/nginx/html/static \( -name \*.css -o -name \*.jpeg -o -name \*.png \) -type f -mmin +20 -delete
