@@ -1,1 +1,1 @@
-*/14 * * * * find /usr/local/openresty/nginx/html/static \( -name \*.css -o -name \*.jpg -o -name \*.png \) -type f -mmin +100 -delete
+*/50 * * * * find /usr/local/openresty/nginx/html/static \( -name \*.css -o -name \*.jpg -o -name \*.png \) -type f -mmin +45 -delete
